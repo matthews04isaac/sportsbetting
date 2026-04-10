@@ -298,7 +298,7 @@ def generate_historical_data(
         sh["h2h"].setdefault(away, []).append(home_win)
         sa["h2h"].setdefault(home, []).append(1 - home_win)
 
-        current_date += timedelta(days=rng.integers(0, 2))
+        current_date += timedelta(days=int(rng.integers(0, 2)))
         game_idx += 1
 
     df = pd.DataFrame(records)
