@@ -1,0 +1,11 @@
+ODDS_API_KEY=5056aa7c9d19dccaec1d6930bf797af8
+ODDS_API_BASE_URL=https://api.the-odds-api.com/v4
+SPORT=icehockey_nhl
+REGIONS=us
+MARKETS=h2h
+BANKROLL=1000.0
+FLAT_BET_PCT=0.02
+KELLY_FRACTION=0.25
+MIN_EDGE=0.05
+MODEL_PATH=models/xgb_model.joblib
+LOG_LEVEL=INFO
